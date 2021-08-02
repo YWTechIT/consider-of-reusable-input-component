@@ -2,8 +2,8 @@
 import { useCallback, useState } from "react";
 import Input from "../../atoms/Input";
 import TodoItem from "../../atoms/TodoItem";
-import TODO_CONST from "../../config";
-import { Todo } from "../../types";
+import TODO_CONST from "../../../config";
+import { Todo } from "../../../types";
 
 const TodoGroup = () => {
   const [todos, setTodos] = useState<Todo[]>(TODO_CONST);
