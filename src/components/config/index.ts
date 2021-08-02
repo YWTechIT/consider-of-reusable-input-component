@@ -1,6 +1,6 @@
-import { TodoConst } from "../types";
+import { Todo } from "../types";
 
-const TODO_CONST: TodoConst[] = [
+const TODO_CONST: Todo[] = [
   {
     id : "1",
     text: "나의 첫번째 TODO",
