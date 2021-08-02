@@ -1,5 +1,5 @@
-import Container from "./components/Container";
 import Body from "./components/molecules/Body";
+import Container from "./components/container";
 import Header from "./components/molecules/Header";
 
 const App = () => {
